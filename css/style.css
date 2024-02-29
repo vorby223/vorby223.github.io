@@ -22,6 +22,10 @@ p {
 
 img{
   width:100%;
+  max-height: 30%;
+  /* border-color: blue;
+  border-radius: 5%;
+  border-width: 10px; */
 }
 
 
@@ -30,20 +34,38 @@ p{
 }
 
 div img{
-    width:150px;
-    height: 150px;
+    width:100%;
+    max-height: auto;
     display:block;
     margin:auto;
+    border: 5px solid blue;
+    border-radius: 10px;
 }
 
 div{
-  display: inline-block;
-  width: 24%;
+  display: block;
+  width: 100%;
   margin: 5px;
   padding: 2px;
 }
 
+@media only screen and (min-width: 772px) {
+    div{
+        width:45%;
+        display: inline-block;
+    }
+    img{
+        max-height:30vh;
+    }
+    
+}
 
+@media only screen and (min-width: 998px){
+    div{
+        width:30%;
+        display: inline-block;
+    }
+}
 
 
 
