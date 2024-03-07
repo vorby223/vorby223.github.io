@@ -38,20 +38,20 @@ div img{
     max-height: auto;
     display:block;
     margin:auto;
-    border: 5px solid blue;
+    border: solid blue;
     border-radius: 10px;
 }
 
 div{
   display: block;
   width: 100%;
-  margin: 5px;
+  /* margin: 5px; */
   padding: 2px;
 }
 
 @media only screen and (min-width: 772px) {
     div{
-        width:45%;
+        width:45vw;
         display: inline-block;
     }
     img{
@@ -62,7 +62,7 @@ div{
 
 @media only screen and (min-width: 998px){
     div{
-        width:30%;
+        width:30vw;
         display: inline-block;
     }
 }
